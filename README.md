@@ -1,4 +1,4 @@
-# twg-reviews-plugin
+# TWG Reviews Plugin
 The TWG Review Post Type plugin enhances your WordPress site by adding a dedicated custom post type for reviews. This plugin allows you to easily create and manage reviews with structured data using its custom meta boxes for star rating, pros, cons, price, and a buying link.
 
 In addition to displaying the review data below the content on the single review page, the plugin also automatically adds schema markup for reviews. This ensures your reviews are search engine optimized, improving visibility and click-through rates on search engine result pages (SERPs).
