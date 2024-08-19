@@ -1,0 +1,152 @@
+.twg-review-details {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-top: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.twg-review-details h3 {
+    color: #333;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 5px;
+}
+
+.twg-review-details p {
+    font-size: 1.1em;
+    line-height: 1.6em;
+    margin-bottom: 15px;
+    color: #555;
+}
+
+.twg-review-details .twg-pros-cons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.twg-review-details .twg-pros-cons div {
+    width: 48%;
+    background-color: #f1f1f1;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.twg-review-details .twg-pros-cons div h4 {
+    color: #2ecc71;
+    margin-top: 0;
+}
+
+.twg-review-details .twg-pros-cons div.twg-cons h4 {
+    color: #e74c3c;
+}
+
+.twg-review-details .twg-price {
+    font-size: 1.3em;
+    color: #2980b9;
+    font-weight: bold;
+}
+
+.twg-star-rating {
+    font-size: 24px; /* Size of the stars */
+    color: #ddd; /* Base color for empty stars */
+    display: inline-block;
+}
+
+.twg-star-rating .star {
+    position: relative;
+    display: inline-block;
+}
+
+.twg-star-rating .star.full {
+    color: #ffd700; /* Color for full stars */
+}
+
+.twg-star-rating .star.half::before {
+    content: '\2605'; /* Unicode star character */
+    color: #ffd700; /* Color for filled half */
+    position: absolute;
+    left: 0;
+    width: 50%;
+    overflow: hidden;
+}
+
+.twg-star-rating .star.empty {
+    color: #ddd; /* Color for empty stars */
+}
+
+.twg-review-details {
+    margin: 20px 0;
+    font-family: Arial, sans-serif;
+}
+
+.twg-pros-cons {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.twg-pros, .twg-cons {
+    width: 48%;
+}
+
+.twg-pros h4, .twg-cons h4 {
+    margin-bottom: 10px;
+    font-size: 1.2em;
+    color: #2c3e50;
+}
+
+.twg-pros ul, .twg-cons ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.twg-pros ul li, .twg-cons ul li {
+    margin-bottom: 8px;
+    font-size: 1em;
+    color: #34495e;
+}
+
+.twg-buy-link {
+    margin: 20px 0;
+    text-align: center;
+}
+
+.buy-now-button {
+    background-color: #27ae60;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1.2em;
+    display: inline-block;
+}
+
+.buy-now-button:hover {
+    background-color: #2ecc71;
+    text-decoration: none;
+}
+
+.twg-pros-cons-container {
+    margin: 20px;
+}
+
+.twg-textarea {
+    width: 100%;
+    height: 100px;
+    margin-bottom: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.twg-list {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+.twg-list li {
+    margin: 5px 0;
+}
+
